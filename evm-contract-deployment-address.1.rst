@@ -41,17 +41,13 @@ Ethereum Virtual Machine (EVM) deployment address discover tool
 Synopsis
 ========
 
-evm-contract-deployment-address *[options]* *address* *transaction_deployment*
+evm-contract-deployment-address *[options]* *target-contract*
 
 
 Description
 ===========
 
-Determines the deployment address of a smart contract
-given the application name.
-
-To obtain transaction data it uses libraries from
-EVM Transactions Tools.
+Returns an EVM network's contract deployment address.
 
 
 Networks
@@ -65,41 +61,35 @@ well as direct RPC addresses.
 Options
 =======
 
--V deployer_verify      Whether to verify the input
-                        address is the deployer.
--r retries_max          Maximum number of retries before
-                        declaring the call failed.
--S rpc_selection        RPC selection method. It can be
-                        'kirsh' or 'random'.
+-n network, --network network                      EVM network name.
 
+-i network-id, --chain-id number                   EVM network id.
 
-Credentials options
-=====================
+-A, --networks-all                                 Returns address for all
+                                                   available networks.
 
--N wallet_name          EVM wallet name.
--w wallet_path          EVM wallet file path.
--p wallet_path          EVM wallet password file.
--s wallet_seed          Standard 12-words seed phrase file.
--t call_type            Static (read-only) or dynamic (read/write).
--k api_key              Etherscan-like service key.
+-a target-app, --target-app app                    Application whose target
+                                                   contract is part of.
 
+-V contract-version, --contract-version version    Contract version.
 
-LibEVM options
-===============
+-u, --user-defined                                 Returns contract address for
+                                                   user-defined file system
+                                                   deployment instead of the
+                                                   system one.
 
--a                      Whether to perform an authenticated
-                        RPC call.
--n network              EVM network name. Accepted values
-                        are all those supported by
-                        evm-chains-info as well as RPC addresses.
+-d directory, --deployments-dir dir                Specify contracts deployments
+                                                   directory path.
 
+-f format, --configuration-format format           Specify contracts deployments
+                                                   configuration format. It can be
+                                                   'bash' or 'json'.
 
-Application options
-====================
+-h, --help                                         Displays help.
 
--h                      Displays help.
--c                      Enable color output
--v                      Enable verbose output
+-c, --color                                        Enable color output
+
+-v, --verbose                                      Enable verbose output
 
 
 Bugs
