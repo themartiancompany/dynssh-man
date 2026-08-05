@@ -28,26 +28,26 @@
 
 
 =====================================
-evm-contract-deployment-address
+evm-contract-deployment-abi
 =====================================
 
 -----------------------------------------------------------------------------------
-Ethereum Virtual Machine (EVM) deployment address discover tool
+Ethereum Virtual Machine (EVM) contract deployment ABI discover tool
 -----------------------------------------------------------------------------------
-:Version: evm-contract-deployment-address |version|
+:Version: evm-contract-deployment-abi |version|
 :Manual section: 1
 
 
 Synopsis
 ========
 
-evm-contract-deployment-address *[options]* *target-contract*
+evm-contract-deployment-abi *[options]* *target-contract*
 
 
 Description
 ===========
 
-Returns an EVM network's contract deployment address.
+Returns an EVM network's contract deployment ABI.
 
 
 Networks
@@ -108,7 +108,7 @@ See also
 ========
 
 * evm-contract-call
-* evm-contract-deployment-abi
+* evm-contract-deployment-address
 * evm-contract-deployment-bytecode
 * evm-contract-deployment-compiler-output
 * evm-contract-deployment-networks

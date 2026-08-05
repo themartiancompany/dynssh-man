@@ -27,27 +27,28 @@
    If not, see <https://www.gnu.org/licenses/>.
 
 
-=====================================
-evm-contract-deployment-address
-=====================================
+===============================================
+evm-contract-deployment-compiler-output
+===============================================
 
 -----------------------------------------------------------------------------------
-Ethereum Virtual Machine (EVM) deployment address discover tool
+Ethereum Virtual Machine (EVM) contract deployment compiler output discover tool
 -----------------------------------------------------------------------------------
-:Version: evm-contract-deployment-address |version|
+:Version: evm-contract-deployment-compiler-output |version|
 :Manual section: 1
 
 
 Synopsis
 ========
 
-evm-contract-deployment-address *[options]* *target-contract*
+evm-contract-deployment-compiler-output *[options]* *target-contract*
 
 
 Description
 ===========
 
-Returns an EVM network's contract deployment address.
+Returns an EVM network's contract deployment compiler output
+(HardHat json file).
 
 
 Networks
@@ -109,8 +110,8 @@ See also
 
 * evm-contract-call
 * evm-contract-deployment-abi
+* evm-contract-deployment-address
 * evm-contract-deployment-bytecode
-* evm-contract-deployment-compiler-output
 * evm-contract-deployment-networks
 * evm-contract-deployment-versions
 * evm-contract-deployments-dir
