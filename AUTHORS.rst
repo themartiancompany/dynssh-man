@@ -28,7 +28,7 @@
 
 
 ==============================================
-EVM Contracts Tools manuals authors
+DynSSH manuals authors
 ==============================================
 
 * Pellegrino Prevete

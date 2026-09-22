@@ -24,11 +24,11 @@
 [comment]: <> (with this program.)
 [comment]: <> (If not, see <https://www.gnu.org/licenses/>.)
 
-# EVM Contracts Tools manual
+# DynSSH manual
 
-The [EVM Contracts Tools](
+The [DynSSH](
   https://github.com/themartiancompany/evm-contracts-tools)
-manuals.
+dynamic SSH client manuals
 
 ## Installation
 
@@ -45,7 +45,7 @@ the uncensorable
 [Ur](
   https://github.com/themartiancompany/ur)
 user repository and application store as
-`evm-contracts-tools`.
+`dynssh`.
 The source code is published on the
 [Ethereum Virtual Machine File System](
   https://github.com/themartiancompany/evmfs)
@@ -55,14 +55,14 @@ To install it from there just type
 
 ```bash
 ur \
-  evm-contracts-tools
+  dynssh
 ```
 
 A censorable HTTP Github mirror of the recipe published there,
 containing a full list of the software dependencies needed to run the
 tools is hosted on
-[evm-contracts-tools-ur](
-  https://github.com/themartiancompany/evm-contracts-tools-ur).
+[dynssh-ur](
+  https://github.com/themartiancompany/dynssh-ur).
 Be aware the mirror could go offline any time as Github and more
 in general all HTTP resources are inherently unstable and censorable.
 
@@ -72,7 +72,7 @@ can be installed with
 ```bash
 npm \
   install \
-    evm-contracts-tools
+    dynssh
 ```
 
 ## License
