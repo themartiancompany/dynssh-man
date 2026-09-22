@@ -66,15 +66,6 @@ tools is hosted on
 Be aware the mirror could go offline any time as Github and more
 in general all HTTP resources are inherently unstable and censorable.
 
-A package has also been released on NPM as `evm-wallet.js` and
-can be installed with
-
-```bash
-npm \
-  install \
-    dynssh
-```
-
 ## License
 
 This program is released by Pellegrino Prevete under the terms
