@@ -72,12 +72,21 @@ Options
 
 
 Application options
-================
+=====================
 
 -h                   Display help.
 -c                   Enable color output
 -v                   Enable verbose output
 
+
+Environment variables
+=======================
+
+* *HOTSPOT_RESOLVER_OPTS*
+
+    This variable is read to pass custom options
+    to 'hotspot-resolver' (for example the global
+    host option '-G').
 
 Bugs
 ====
